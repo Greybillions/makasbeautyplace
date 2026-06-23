@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: `Maka's Beauty Place`,
-  description: 'Welcome to Maka&apos;s Beauty Place',
+  description: `Welcome to Maka's Beauty Place`,
 };
 
 export default function RootLayout({
