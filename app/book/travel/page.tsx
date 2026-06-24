@@ -221,7 +221,7 @@ export default function TravelPage() {
                 </span>
               </div>
               <div className='w-full overflow-x-hidden overflow-y-auto'>
-                <div className='h-100 overflow-y-auto md:h-175'>
+                <div className='h-125 overflow-y-auto md:h-175'>
                   <Cal
                     calLink='grey1511/30min'
                     style={{ width: '100%', height: '100%' }}
