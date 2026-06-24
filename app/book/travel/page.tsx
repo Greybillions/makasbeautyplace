@@ -285,17 +285,6 @@ export default function TravelPage() {
         <p className='text-sm text-[#646971]'>
           Maka&apos;s Beauty Place {new Date().getFullYear()} ©
         </p>
-        <p className='text-lg text-[#7c8391]'>
-          Designed & Built by{' '}
-          <a
-            href='https://madebygrey.vercel.app'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='font-semibold text-[#111827] underline underline-offset-2 hover:text-[#374151] transition-colors'
-          >
-            Grey
-          </a>
-        </p>
       </div>
     </main>
   );
