@@ -223,7 +223,7 @@ export default function TravelPage() {
               <div className='w-full overflow-x-hidden overflow-y-auto'>
                 <div className='h-125 overflow-y-auto md:h-175'>
                   <Cal
-                    calLink='grey1511/30min'
+                    calLink='the-queenamy-qkba9k/30min'
                     style={{ width: '100%', height: '100%' }}
                     config={{ layout: 'month_view' }}
                   />
