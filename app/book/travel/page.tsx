@@ -156,12 +156,13 @@ export default function TravelPage() {
 
             {/* Disclaimer */}
             <div className='mt-5 rounded-xl bg-[#F9FAFB] border border-[#E5E7EB] p-4'>
-              <p className='text-xs text-[#9CA3AF] leading-relaxed'>
+              <p className='text-sm text-[#9CA3AF] leading-relaxed'>
                 <span className='font-semibold text-[#6B7280]'>
-                  Please note:
+                  Disclaimer:
                 </span>{' '}
-                This is based on personal experience and is not legal or
-                immigration advice.
+                All guidance provided is based on personal experience and is for
+                informational purposes only. For official immigration advice,
+                please consult a licensed immigration consultant or lawyer.
               </p>
             </div>
           </div>
