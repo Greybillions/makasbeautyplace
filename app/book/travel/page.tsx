@@ -221,7 +221,7 @@ export default function TravelPage() {
               </div>
               <Cal
                 calLink='grey1511/30min'
-                style={{ width: '100%', height: '700px' }}
+                style={{ width: '100%', height: '700px', overflow: 'scroll' }}
                 config={{ layout: 'month_view' }}
               />
             </div>
