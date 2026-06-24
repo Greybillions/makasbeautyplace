@@ -13,6 +13,7 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react';
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
 import gsap from 'gsap';
 
 const stripePromise = loadStripe(
@@ -281,11 +282,36 @@ export default function TravelPage() {
           )}
         </div>
       </div>
-      <div className='mt-8 text-center space-y-1.5'>
-        <p className='text-sm text-[#646971]'>
-          Maka&apos;s Beauty Place {new Date().getFullYear()} ©
-        </p>
-      </div>
+      <footer className='mt-10 border-t border-neutral-200 pt-6'>
+        <div className='flex flex-col items-center gap-4 text-center'>
+          <div className='flex items-center gap-4'>
+            <a
+              href='https://www.instagram.com/thequeen__amy'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-neutral-500 transition-colors hover:text-[#DD2A7B]'
+              aria-label='Instagram'
+            >
+              <FaInstagram size={18} />
+            </a>
+
+            <a
+              href='https://youtube.com/@thequeenamyy'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-neutral-500 transition-colors hover:text-[#FF0000]'
+              aria-label='YouTube'
+            >
+              <FaYoutube size={18} />
+            </a>
+          </div>
+
+          <p className='text-sm text-neutral-500'>
+            © {new Date().getFullYear()} Maka&apos;s Beauty Place. All rights
+            reserved.
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }
