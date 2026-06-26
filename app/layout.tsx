@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: `Maka's Beauty Place`,
-  description: `Welcome to Maka's Beauty Place`,
+  title: `Nwamaka Madu`,
+  description: `I'm Nwamaka, From visa tips to full trip planning, I share what I've learned from personal experience — so your journey is smoother than mine had to be.`,
 };
 
 export default function RootLayout({
